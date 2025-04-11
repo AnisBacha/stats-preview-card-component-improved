@@ -87,6 +87,7 @@ body{
     .main{
         flex-direction: row-reverse;
         text-align: start;
+        max-width: 1110px;
     }
     .main__headerM{
         display: none;
@@ -102,16 +103,17 @@ body{
     .main__stats{
         display: flex;
         justify-content: space-between;
-        width: 70%;
+        width: 85%;
     }
     .main__h1{
         font-size: 2.25rem;
         padding-inline: 0;
+
     }
     .main__description{
         font-size: 1rem;
         padding-inline: 0;
-        width: 70%;
+        width: 85%;
         line-height: 1.6;
     }
 }
